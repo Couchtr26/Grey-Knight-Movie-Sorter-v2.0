@@ -1,0 +1,14 @@
+GREY KNIGHT SOFTWARE – USER LICENSE
+
+You are free to use, share, and distribute this software for personal or non-commercial use.
+
+You may not:
+- Resell or repackage this tool as your own
+- Remove or alter the “John Code” section or attribution
+
+Attribution and legacy matter. This project is built with purpose and memory. You may build on it—but respect the name.
+
+Provided as-is. No warranty, no liability. Use at your own risk.
+
+© 2025 Grey Knight Software
+All Rights Remembered.
