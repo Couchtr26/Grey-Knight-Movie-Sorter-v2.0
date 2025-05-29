@@ -8,6 +8,9 @@ This tool helps you automatically:
 - Avoid duplicates with smart file destination logic
 - Keep a log of everything renamed and moved
 
+🔑 Requires a free OMDb API key (you'll be prompted when launching).
+Get yours here: https://www.omdbapi.com/apikey.aspx (choose free option).
+
 🛠 FEATURES:
 - Genre folder creation
 - Metadata fetch via OMDb API
