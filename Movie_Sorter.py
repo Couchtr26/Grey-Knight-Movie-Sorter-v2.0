@@ -26,7 +26,8 @@ if not OMDB_API_KEY:
         raise SystemExit
 
 def clean_filename_for_searh(name):
-    name = re.sub(r'\[\d{3,4}p\]', '', name)
+    name = re.sub(r'[\[\]\(\)]', '', name)
+    name = re.sub(r'\b(19|20)\d{2}\b', '', name)
     name = re.sub(r'\b(1080p|720p|x264|BRRip|WEBRip|BluRay|HDRip|DVDRip|YTS|AAS|H\.264)\b', '', name, re.IGNORECASE)
     name = re.sub(r'\W+', ' ', name).strip()
     return name
@@ -45,6 +46,8 @@ def get_unique_destination(dest_folder, filename):
 #Get Metadata from OMDb API
 def fetch_movie_metadata(filename):
     base_name = os.path.splitext(filename)[0]
+    cleaned_name = clean_filename_for_search(base_name)
+
     params = {
         "t": base_name,
         "apikey": OMDB_API_KEY
