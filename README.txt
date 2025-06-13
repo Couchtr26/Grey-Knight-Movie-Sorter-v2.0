@@ -32,3 +32,5 @@ INSTRUCTIONS:
 
 – Grey Knight Software
 Respect the forge. Build with memory.
+
+Copyright (c) 2025 Couchtr26
